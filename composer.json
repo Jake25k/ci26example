@@ -23,7 +23,7 @@
 		"ext-json": "*",
 		"ext-mbstring": "*",
 		"ext-xml": "*",
-		"jasig/phpCAS": "*",
+		"jasig/phpcas": "*",
 		"liuggio/statsd-php-client": "1.0.18",
 		"mediawiki/at-ease": "1.1.0",
 		"mediawiki/vector-skin": "dev-wmf/1.30.0-wmf.2",
