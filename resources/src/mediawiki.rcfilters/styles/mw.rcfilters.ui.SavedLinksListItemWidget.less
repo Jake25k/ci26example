@@ -1,0 +1,53 @@
+.mw-rcfilters-ui-savedLinksListItemWidget {
+	padding: 0.2em 0.7em;
+
+	&:hover {
+		// Mimicking optionWidget styles
+		background-color: #eaecf0;
+		color: #000;
+	}
+
+	.mw-rcfilters-ui-cell {
+		vertical-align: middle;
+	}
+
+	.oo-ui-iconElement-icon {
+		// Since we made the rows narrower (height smaller than usual)
+		// then the icon needs to be slightly smaller as well, so that
+		// when we toggle 'default' the icon doesn't bounce the option
+		// height up a little
+		width: 1.7em;
+		height: 1.7em;
+	}
+
+	&-icon span {
+		display: inline-block;
+	}
+
+	&-input {
+		display: inline-block;
+		margin-right: 0;
+		width: 15em;
+	}
+
+	&-label {
+		max-width: 15em;
+		display: inline-block;
+		vertical-align: middle;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		cursor: pointer;
+		margin-left: 0.5px;
+		color: #36c; // Accent50;
+	}
+
+	&-icon,
+	&-button {
+		width: 2em;
+	}
+
+	&-content {
+		width: 100%;
+	}
+
+}
